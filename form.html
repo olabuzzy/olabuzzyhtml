@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AltSchool Application Form</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Head</a>
+            <a href="form.html">Application Form</a>
+            <a href="table.html">Courses</a>
+            <a href="media.html">About Me</a>
+        </nav>
+    </header>
+
+    <main>
+       <h1>AltSchool Africa Application Form</h1>
+       <form action="#" method="post">
+            <label for="Firstname">First Name</label>
+            <input type="text" ID="firstname" name="firstname" placeholder="Enter Your Firstname" autofocus required>
+            <label for="Lastname">Last Name</label>
+            <input type="text" ID="lastname" name="lastname" placeholder="Enter Your Lastname" required>
+            <br><br>
+            
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender">
+                <option value="">Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+
+            <label for="DOB">Date of Birth</label>
+            <input type="date" ID="dob" required>
+            <br><br>
+            
+            <label for="email">Email Address</label>
+            <input type="email" ID="email" name="email" placeholder="Enter Your Email Address" required>
+            <br><br>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" ID="phone" name="phone" placeholder="081-234-56789" pattern="{0-9}{3}-{0-9}{3}-{0-9}{5}" required>
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="">Select Country</option>
+                <option value="country">Nigeria</option>
+                <option value="country">Ghana</option>
+                <option value="country">Kenya</option>
+                <option value="country">Niger</option>
+                <option value="country">South Africa</option>
+                <option value="country">Cote D'Ivoire</option>
+                <option value="country">Cameroun</option>
+                <option value="country">Senegal</option>
+            </select>
+            <br><br>
+
+            <label for="state">State of Residence:</label>
+            <input type="text" ID="state" name="state" placeholder="Enter State of Residence" required>
+            <br><br>
+
+            <label for="city">City of Residence:</label>
+            <input type="text" ID="city" name="city" placeholder="Enter City of Residence" required>
+            <br><br>
+
+            <label for="">How did you hear about us?</label>
+            <select id="medium" name="medium">
+                <option value=""></option>
+                <option value="Twitter">Twitter</option>
+                <option value="facebook">Facebook</option>
+                <option value="instagram">Instagram</option>
+                <option value="whatsapp">Whatsapp</option>
+                <option value="tiktok">Tiktok</option>
+                <option value="linkdln">Linkdln</option>
+                <option value="indeed">Indeed</option>
+                <option value="bumble">Bumble</option>
+            </select>
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" ID="password" name="password" placeholder="Enter Password" required>
+
+            <label for="confirm password">Confirm Password:</label>
+            <input type="password" ID="confirm password" name="confirm password" placeholder="Enter Password" required>
+            <br><br>
+
+            <selection>
+                <p>By clicking submit, I agree to  <strong>Terms of Use</strong> and acknowledge that I have read the <strong>Privacy Policy.</strong></p>
+            </selection>
+
+            <button type="submit">Submit</button>
+
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Olabokunde. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
